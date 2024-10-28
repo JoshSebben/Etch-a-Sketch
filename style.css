@@ -1,7 +1,9 @@
 #container{
     display: flex;
-    width: 860px;
-    height: 860px;
+    flex-wrap: wrap;
+    max-width: calc(50px * 100);
+    max-height: calc(50px * 100);
+    overflow: auto;
 }
 
 .grid0, .grid1, .grid2, .grid3, .grid4,
